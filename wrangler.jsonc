@@ -2,9 +2,5 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "sniper-xausd",
   "compatibility_date": "2026-09-16",
-  "assets": {
-    "directory": "./dist",
-    "binding": "ASSETS",
-    "not_found_handling": "single-page-application"
-  }
+  "pages_build_output_dir": "./dist"
 }
